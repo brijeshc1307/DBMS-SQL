@@ -79,8 +79,8 @@ The automated solution for CSV uploading to the Test database has successfully t
 
 ---
 **Attachments:**  
-- Script Documentation  
-- Performance Metrics  
+- [Script Documentation](/Atomn_of_CSV_Upldng_to_Tst_DB.sql)
+- [Explanation of the SQL Code](/Explanation_of_the_SQL_Code.md) 
 - Test Results
 
 
