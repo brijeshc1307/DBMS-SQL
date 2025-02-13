@@ -1,7 +1,7 @@
 --- Step 1: Declare Variables
 DECLARE @TableName NVARCHAR(50);
 DECLARE @SQLL NVARCHAR (MAX);
-SET @TableName = 'Inventory_' + FORMAT (GETDATE(), 'dd MM_yyyy');
+SET @TableName = 'Inventory_' + FORMAT (GETDATE(), 'dd_MM_yyyy');
 
 --Step 2: Create a Table Dynamically
 SET @SQLL = '
