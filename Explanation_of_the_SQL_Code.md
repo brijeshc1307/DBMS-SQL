@@ -2,10 +2,10 @@
 ```sql
 DECLARE @TableName NVARCHAR(50);
 DECLARE @SQLL NVARCHAR (MAX);
-SET @TableName = 'Inventory_' + FORMAT (GETDATE(), 'dd MM_yyyy');
+SET @TableName = 'Inventory_' + FORMAT (GETDATE(), 'dd_MM_yyyy');
 ```
 - Declares two variables:
-  - `@TableName`: Stores the dynamically generated table name, which includes the current date in `dd MM_yyyy` format (e.g., `Inventory_13 02_2025` for Feb 13, 2025).
+  - `@TableName`: Stores the dynamically generated table name, which includes the current date in `dd_MM_yyyy` format (e.g., `Inventory_13_02_2025` for Feb 13, 2025).
   - `@SQLL`: Stores the SQL statement to create the table.
 
 ---
